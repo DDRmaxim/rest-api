@@ -1,0 +1,22 @@
+{
+    "name": "ddrmx/rest-api",
+    "description": "REST API",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Maxim D.",
+            "email": "ddrmx@ya.ru"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "pecee/simple-router": "*",
+        "ext-json": "*",
+        "moneyphp/money": "^4.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
